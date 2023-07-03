@@ -1,20 +1,25 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { motion } from "framer-motion";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <motion.Card
+      initial={{ opacity: 0, scale: 0 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6 }}
+      className="quote-card-view"
+    >
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            Hi Everyone, I am <span className="purple">Mahfuj Alam </span>
+            from <span className="purple"> Sunamganj, Bangladesh.</span>
+            <br /> I am a 5th semester student pursuing an Integrated Diploma In
+            Engineering (CSE) .
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Additionally, I am currently employed as a web developer at Juspay.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,7 +29,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Programming
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -34,10 +39,10 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Mahfuj Alam</footer>
         </blockquote>
       </Card.Body>
-    </Card>
+    </motion.Card>
   );
 }
 

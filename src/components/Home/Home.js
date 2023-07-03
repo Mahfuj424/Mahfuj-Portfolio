@@ -1,9 +1,14 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import { AiOutlineDownload } from "react-icons/ai";
+import { Link } from "react-router-dom";
+import Skill from "../Skills/Skill";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
 
 function Home() {
   return (
@@ -14,7 +19,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi EveryOne{" "}
+                Hi there{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -22,7 +27,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> Mahfuj Alam</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -32,9 +37,9 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src="https://i.ibb.co/W6hBFrB/home-main.png"
                 alt="home pic"
-                className="img-fluid"
+                className="img-fluid border border-secondary border-5 shadow-lg rounded-circle"
                 style={{ maxHeight: "450px" }}
               />
             </Col>
@@ -42,6 +47,10 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <About />
+      <Projects />
+      <Skill/>
+      <Contact/>
     </section>
   );
 }

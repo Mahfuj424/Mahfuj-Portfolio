@@ -11,20 +11,15 @@ import {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+      
+      <Col xs={4} md={3} className="tech-icons">
+        <SiVisualstudiocode className="main-name"  />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+      <Col xs={4} md={3} className="tech-icons">
+        <SiPostman className="main-name"  />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+      <Col xs={4} md={3} className="tech-icons">
+        <SiVercel className="main-name"  />
       </Col>
     </Row>
   );
