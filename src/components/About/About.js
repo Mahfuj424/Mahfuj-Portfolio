@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -30,8 +29,7 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          <Col>
-            <motion.div
+          <Col
               initial={{ opacity: 0, scale: 0 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6 }}
@@ -40,7 +38,6 @@ function About() {
               className="about-img"
             >
               <img src={laptopImg} alt="about" className="img-fluid" />
-            </motion.div>
           </Col>
         </Row>
       </Container>

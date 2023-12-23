@@ -1,11 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
-import { motion } from "framer-motion";
 
 function AboutCard() {
   return (
-    <motion.Card
+    <Card
       initial={{ opacity: 0, scale: 0 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.6 }}
@@ -42,7 +41,7 @@ function AboutCard() {
           <footer className="blockquote-footer">Mahfuj Alam</footer>
         </blockquote>
       </Card.Body>
-    </motion.Card>
+    </Card>
   );
 }
 

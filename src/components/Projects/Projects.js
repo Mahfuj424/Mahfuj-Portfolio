@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chef from '../../Assets/Projects/chef.png'
-import toy from '../../Assets/Projects/toy.png'
 import martial from '../../Assets/Projects/martial.png'
+import ramadan from '../../Assets/Projects/ramadankarem.png'
+import BestCourse from '../../Assets/Projects/bestCoure.png'
 
 function Projects() {
   return (
@@ -20,23 +20,24 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chef}
+              imgPath={ramadan}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Ramadan Karem"
+              description="
+              It seems like you've provided information about a website project related to Ramadan and built with specific technologies such as React.js, Firebase, Daisyui, Tailwind CSS, and deployed on Vercel. The features include the ability for users to favorite iftar recipes, provide reviews, and ask hadith-related questions."
               ghLink="https://github.com/Mahfuj424/chefs-finder"
-              demoLink="https://candid-fox-42f8e8.netlify.app/"
+              demoLink="https://ramadan-karem-1ca1c.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={toy}
+              imgPath={BestCourse}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Best College"
+              description="It sounds like you have a project related to colleges, built with a technology stack that includes React.js for the frontend, Express.js for the backend, Firebase for some functionalities, Daisyui for UI components, and Tailwind CSS for styling. The features include client reviews  and the option to choose any available college."
               ghLink="https://github.com/Mahfuj424/aeroplane-toy-client"
-              demoLink="https://teal-begonia-bbb3c7.netlify.app/"
+              demoLink="https://endearing-medovik-d76f86.netlify.app/"
             />
           </Col>
 
@@ -44,10 +45,10 @@ function Projects() {
             <ProjectCard
               imgPath={martial}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Martial Art School"
+              description="It looks like you have a project related to martial arts, with a technology stack including React.js for the frontend, Express.js and Node.js for the backend, Firebase for some functionalities, Daisyui for UI components, and Tailwind CSS for styling. Additionally, you've provided admin credentials for managing users and classes."
               ghLink="https://github.com/Mahfuj424/karate-master-client"
-              demoLink="https://dynamic-gelato-0d67d8.netlify.app/"              
+              demoLink="https://cozy-gecko-636cfe.netlify.app/"              
             />
           </Col>
         </Row>

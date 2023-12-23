@@ -22,7 +22,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href='https://drive.google.com/file/d/1YA_eRVGXZc4QnjIaqOqtbm05DQv1YVMj/view?usp=sharing'
+            href='https://drive.google.com/file/d/1JwScmYy97aIEADSkBvvmXANURX2v5Wgp/view?usp=sharing'
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -32,7 +32,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <img style={{width:'60%',}} className="d-flex justify-content-center" src='https://i.ibb.co/Fx8C5KT/resume.png' alt="Resume" />
+          <img style={{width:'60%',}} className="d-flex justify-content-center" src='https://i.ibb.co/0G6V73d/Screenshot-2023-09-18-061954.png' alt="Resume" />
           
         </Row>
 

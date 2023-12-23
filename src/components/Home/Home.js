@@ -17,7 +17,10 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col
+              md={7}
+              className="home-header"
+            >
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi there{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -35,10 +38,13 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col
+              md={5}
+              style={{ paddingBottom: 20 }}
+            >
               <img
                 src="https://i.ibb.co/W6hBFrB/home-main.png"
-                alt="home pic"
+                alt="profile pic"
                 className="img-fluid border border-secondary border-5 shadow-lg rounded-circle"
                 style={{ maxHeight: "450px" }}
               />
@@ -49,8 +55,8 @@ function Home() {
       <Home2 />
       <About />
       <Projects />
-      <Skill/>
-      <Contact/>
+      <Skill />
+      <Contact />
     </section>
   );
 }
