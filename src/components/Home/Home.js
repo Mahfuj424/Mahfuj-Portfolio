@@ -3,8 +3,6 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import { AiOutlineDownload } from "react-icons/ai";
-import { Link } from "react-router-dom";
 import Skill from "../Skills/Skill";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
@@ -43,10 +41,10 @@ function Home() {
               style={{ paddingBottom: 20 }}
             >
               <img
-                src="https://i.ibb.co/W6hBFrB/home-main.png"
+                src="https://i.ibb.co/Gpj8wXL/profile5.jpg"
                 alt="profile pic"
                 className="img-fluid border border-secondary border-5 shadow-lg rounded-circle"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "450px",  }}
               />
             </Col>
           </Row>
