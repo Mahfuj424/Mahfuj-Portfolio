@@ -19,6 +19,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Skill from "./components/Skills/Skill";
 import Contact from "./components/Contact/Contact";
 
+
+
 function App() {
   const [load, upadateLoad] = useState(true);
 
